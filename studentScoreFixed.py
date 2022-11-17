@@ -2,7 +2,7 @@
 
 def get_score(subject):
     while True:
-        result = float(input(f"Enter the marks stored in {subject}: "))
+        result = float(input(f"Enter the marks scored in {subject}: "))
         if 0 <= result <= 100:
             return result
         print(f"please enter valid score for {subject}")
